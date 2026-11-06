@@ -1,49 +1,36 @@
-# Student Scholarship Eligibility System
+# Smart Pharmacy Inventory & Sales Management System
 
 ## Description
-A Python-based Student Scholarship Eligibility System that evaluates students based on their marks percentage, attendance percentage, and family income to determine scholarship eligibility.
+A Python-based pharmacy management system that processes medicine sales, manages inventory, calculates total revenue, and identifies medicines that need restocking.
 
 ## Features
-- Takes student name and academic information.
-- Checks marks percentage.
-- Checks attendance percentage.
-- Checks family income.
-- Validates user input.
-- Determines scholarship eligibility.
-- Awards Full Scholarship or Partial Scholarship.
-- Displays reasons if a student is not eligible.
-- Generates a detailed scholarship report.
-
-## Scholarship Criteria
-
-| Requirement | Condition |
-|---|---|
-| Marks | 80% or above |
-| Attendance | 85% or above |
-| Family Income | Rs. 50,000 or below |
-| Full Scholarship | Marks 90% or above |
-| Partial Scholarship | Marks 80% to 89% |
+- Processes multiple medicines using a for loop.
+- Takes medicine name, stock, price, and quantity sold.
+- Checks medicine availability before processing sales.
+- Calculates sales amount and remaining stock.
+- Displays a low-stock warning when stock is below 10.
+- Calculates total pharmacy revenue.
+- Counts medicines that need restocking.
+- Generates a final sales report.
 
 ## Technologies Used
 - Python
-- Variables
-- Input and Output
-- If, Elif, Else
-- Conditional Operators
-- Lists
+- For Loop
+- Range()
+- If-Else Conditions
+- Counters
+- Accumulators
 - Exception Handling
-- Try and Except
 
 ## How to Run
-
-1. Clone or download this repository.
+1. Download or clone this repository.
 2. Open the project folder in VS Code.
 3. Open the terminal.
-4. Run the following command:
+4. Run:
 
 ```bash
-python student_scholarship_system.py
+python smart_pharmacy_system.py
 ```
 
 ## Project Type
-Assessment
+python programming Assessment
